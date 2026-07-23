@@ -1,0 +1,31 @@
+<svg viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background circle -->
+  <circle cx="100" cy="100" r="95" fill="#F0FAF0" stroke="#2e7d32" stroke-width="2"/>
+
+  <!-- Fork -->
+  <g transform="translate(60, 70)">
+    <!-- Handle -->
+    <rect x="18" y="35" width="4" height="45" fill="#2e7d32" rx="2"/>
+
+    <!-- Prongs -->
+    <rect x="8" y="0" width="3" height="35" fill="#2e7d32" rx="1.5"/>
+    <rect x="18" y="0" width="3" height="35" fill="#2e7d32" rx="1.5"/>
+    <rect x="28" y="0" width="3" height="35" fill="#2e7d32" rx="1.5"/>
+  </g>
+
+  <!-- Heart -->
+  <g transform="translate(95, 85)">
+    <path d="M0,-8 C-6,-14 -14,-14 -14,-6 C-14,0 -8,8 0,14 C8,8 14,0 14,-6 C14,-14 6,-14 0,-8 Z"
+          fill="#FF6B6B" opacity="0.9"/>
+  </g>
+
+  <!-- Checkmark accent -->
+  <g transform="translate(110, 60)">
+    <path d="M0,8 L6,14 L18,2" stroke="#4CAF50" stroke-width="2.5" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+  </g>
+
+  <!-- Text -->
+  <text x="100" y="165" font-size="18" font-weight="700" text-anchor="middle" fill="#2e7d32" font-family="Arial, sans-serif">
+    PikMe
+  </text>
+</svg>
